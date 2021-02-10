@@ -1,0 +1,17 @@
+{
+  "name": "node_test",
+  "version": "1.0.0",
+  "description": "test node js server and env",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint"
+  },
+  "author": "Alex Larionov",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
